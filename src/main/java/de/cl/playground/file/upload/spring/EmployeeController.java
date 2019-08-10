@@ -15,7 +15,11 @@ public class EmployeeController {
 
     @RequestMapping(value = "/employee", method = RequestMethod.GET)
     public ModelAndView showForm() {
-        return new ModelAndView("employeeHome", "employee", new Employee());
+
+        Employee emp = new Employee();
+        emp.setName("Pimmel");
+
+        return new ModelAndView("employeeHome", "employee", emp);
     }
 
     @RequestMapping(value = "/addEmployee", method = RequestMethod.POST)
