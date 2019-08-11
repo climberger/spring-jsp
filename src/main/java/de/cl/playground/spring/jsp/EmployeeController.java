@@ -26,7 +26,8 @@ public class EmployeeController {
     public String submit(@Valid @ModelAttribute("employee")Employee employee,
         BindingResult result, ModelMap model) {
         if (result.hasErrors()) {
-            return "error";
+            System.out.println("error occured while binding");
+            return "binding-error";
         }
         model.addAttribute("name", employee.getName());
         model.addAttribute("contactNumber", employee.getContactNumber());
