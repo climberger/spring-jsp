@@ -9,10 +9,10 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>de.cl.playground</groupId>
-	<artifactId>file.upload.spring</artifactId>
+	<artifactId>spring.jsp</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>file.upload.spring</name>
-	<description>Demo project for Spring Boot</description>
+	<description>Demo project for Spring Boot and JSP</description>
 
 	<properties>
 		<java.version>1.8</java.version>

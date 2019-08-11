@@ -1,4 +1,4 @@
-package de.cl.playground.file.upload.spring;
+package de.cl.playground.spring.jsp;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

@@ -1,4 +1,4 @@
-package de.cl.playground.file.upload.spring;
+package de.cl.playground.spring.jsp;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;
@@ -17,7 +17,7 @@ public class EmployeeController {
     public ModelAndView showForm() {
 
         Employee emp = new Employee();
-        emp.setName("Pimmel");
+        emp.setName("John");
 
         return new ModelAndView("employeeHome", "employee", emp);
     }
